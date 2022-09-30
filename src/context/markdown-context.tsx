@@ -9,7 +9,7 @@ interface Props {
 
 const MarkDownContextProvider: React.FC<Props> = ({ children }) => {
   const [markDown, setMarkDown] = React.useState<MarkDown>({
-    textContent: 'test'
+    textContent: ''
   });
 
   const updateMarkDownContext = (textContent: string) => {

@@ -1,0 +1,8 @@
+.mark-done-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  .mark-done-content {
+    flex: 1 1 auto;
+  }
+}

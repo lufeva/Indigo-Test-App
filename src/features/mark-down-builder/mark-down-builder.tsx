@@ -5,12 +5,16 @@ import MarkDownVisualizer from '../../shared/markdown-visualizer/mark-down-visua
 
 function MarkDownBuilder() {
   return (
-    <div>
+    <div className="mark-done-wrapper">
       <MarkDownContextProvider>
-        <h2>Insert Text</h2>
-        <TextArea />
-        <h2>Result</h2>
-        <MarkDownVisualizer />
+        <div className="mark-done-content">
+          <h2>Insert Text</h2>
+          <TextArea />
+        </div>
+        <div className="mark-done-content">
+          <h2>Result</h2>
+          <MarkDownVisualizer />
+        </div>
       </MarkDownContextProvider>
     </div>
   );
