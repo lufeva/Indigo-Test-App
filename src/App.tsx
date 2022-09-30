@@ -1,11 +1,8 @@
 import './App.scss';
+import MarkDownVisualizer from './features/mark-down-builder/mark-down-builder';
 
 function App() {
-  return (
-    <div>
-      <textarea onChange={(e) => console.log(e.target.value)} rows={5} />
-    </div>
-  );
+  return <MarkDownVisualizer />;
 }
 
 export default App;

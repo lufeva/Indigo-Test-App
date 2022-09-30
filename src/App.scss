@@ -1,0 +1,8 @@
+@import './styles/variables';
+
+// Styles
+body {
+  font-family: $roboto-slab;
+  font-weight: normal;
+  padding: $step;
+}
